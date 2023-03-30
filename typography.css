@@ -1,2 +1,19 @@
 /* @settings
 
+*/
+
+.small-caps {
+    font-variant-caps: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+  }
+
+.has-dropcap {
+    float: left;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: .7;
+    font-size: 4.85em;
+    margin-top: .11em;
+    margin-right: .12em;
+}
