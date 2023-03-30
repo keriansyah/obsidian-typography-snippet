@@ -2,17 +2,17 @@
 name: Obsidian Typography
 id: obsidian-typography
 settings:
-- 
+  - 
     id: heading-graph-node
     title: Graph Node
     type: heading
     level: 1
     collapsed: true
-  -
+  - 
     id: graph-node-tag
     title: 'Graph: Tag'
     type: variable-themed-color
-    opacity: true
+    opacity: false
     format: hex
     default-light: '#44cf6e'
     default-dark: '#44cf6e'
