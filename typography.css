@@ -1,5 +1,21 @@
 /* @settings
-
+name: Obsidian Typography
+id: obsidian-typography
+settings:
+- 
+    id: heading-graph-node
+    title: Graph Node
+    type: heading
+    level: 1
+    collapsed: true
+  -
+    id: graph-node-tag
+    title: 'Graph: Tag'
+    type: variable-themed-color
+    opacity: true
+    format: hex
+    default-light: '#44cf6e'
+    default-dark: '#44cf6e'
 */
 
 .small-caps {
@@ -18,3 +34,4 @@
     margin-top: .11em;
     margin-right: .12em;
 }
+
