@@ -13,25 +13,33 @@ settings:
     title: Line height
     type: variable-text
     default: 1.5
-    
+  -
+		id: spacing-p
+		title: Paragraph spacing
+		description: Space between paragraphs in reading mode
+		type: variable-text
+		default: 0.75em
+	-  
 */
 
 .small-caps {
-    font-variant-caps: small-caps;
-    text-transform: lowercase;
-    letter-spacing: 1px;
-    font-size: calc(var(--font-text-size) + 0.16em);
+  font-variant-caps: small-caps;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+  font-size: calc(var(--font-text-size) + 0.16em);
   }
 
 .has-dropcap {
-    float: left;
-    text-align: left;
-    text-transform: uppercase;
-    line-height: .7;
-    font-size: 4.85em;
-    margin-top: .11em;
-    margin-right: .12em;
+  float: left;
+  text-align: left;
+  text-transform: uppercase;
+  line-height: .5;
+  font-size: 4.85em;
+  margin-top: .11em;
+  margin-right: .12em;
 }
 
---line-height: 1.5;
+body {
+  --line-height: 1.5;
+}
 
