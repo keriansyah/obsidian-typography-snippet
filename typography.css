@@ -19,7 +19,13 @@ settings:
 		description: Space between paragraphs in reading mode
 		type: variable-text
 		default: 1em
-	-  
+	-
+		id: markdown-preview-view p
+		title: Text align
+		description: Text align in reading mode
+		type: variable-text
+		default: left
+	-    
 */
 
 .small-caps {
@@ -44,3 +50,6 @@ body {
   --spacing-p: 1em;
 }
 
+.markdown-preview-view p{
+  text-align: left;
+}
