@@ -12,13 +12,13 @@ settings:
     id: line-height
     title: Line height
     type: variable-text
-    default: 1.5
+    default: 1.5em
   -
 		id: spacing-p
 		title: Paragraph spacing
 		description: Space between paragraphs in reading mode
 		type: variable-text
-		default: 0.75em
+		default: 1em
 	-  
 */
 
@@ -41,5 +41,6 @@ settings:
 
 body {
   --line-height: 1.5;
+  --spacing-p: 1em;
 }
 
