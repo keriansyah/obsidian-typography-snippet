@@ -50,6 +50,4 @@ body {
   --spacing-p: 1em;
 }
 
-.markdown-preview-view p{
-  text-align: left;
-}
+.text-justify :is(.markdown-preview-view p,.markdown-source-view .cm-line) { text-align: left; }
