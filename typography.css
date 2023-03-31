@@ -19,10 +19,76 @@ settings:
 		description: Space between paragraphs in reading mode
 		type: variable-text
 		default: 1em
+  -
+		id: tags
+		title: Tags
+		type: heading
+		level: 2
+		collapsed: true
 	-
-
+		id: plain-tags
+		title: Plain tags
+		description: Tags will render as normal text, overrides settings below
+		type: class-toggle
+		default: false
+	-
+		id: tag-radius
+		title: Tag shape
+		type: variable-select
+		default: 14px
+		options:
+			-
+				label: Pill
+				value: 14px
+			-
+				label: Rounded
+				value: 4px
+			-
+				label: Square
+				value: 0px
+	-
+		id: tag-border-width
+		title: Tag border width
+		type: variable-select
+		default: 1px
+		options:
+			-
+				label: None
+				value: 0
+			-
+				label: Thin
+				value: 1px
+			-
+				label: Thick
+				value: 2px
+	-
+		id: tag-color
+		title: Tag text color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tag-background
+		title: Tag background color
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
+		id: tag-background-hover
+		title: Tag background color (hover)
+		type: variable-themed-color
+		opacity: true
+		format: hex
+		default-light: '#'
+		default-dark: '#'
+	-
 */
 
+/* Text */
 .small-caps {
   font-variant-caps: small-caps;
   text-transform: lowercase;
@@ -45,4 +111,17 @@ body {
   --spacing-p: 1em;
 }
 
-.text-justify :is(.markdown-preview-view p,.markdown-source-view .cm-line) { text-align: left; }
+.text-justify :is(.markdown-preview-view p,.markdown-source-view .cm-line) {
+  text-align: left;
+}
+
+/* Tags */
+body.plain-tags {
+  --tag-background: transparent;
+  --tag-background-hover: transparent;
+  --tag-border-width: 0px;
+  --tag-padding-x: 0;
+  --tag-padding-y: 0;
+  --tag-size: inherit;
+  --tag-color-hover: var(--text-accent-hover);
+}
