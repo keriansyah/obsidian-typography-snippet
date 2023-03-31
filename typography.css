@@ -91,8 +91,8 @@ body.plain-tags {
   --tag-background: transparent;
   --tag-background-hover: transparent;
   --tag-border-width: 0px;
-  --tag-padding-x: 0.5em;
-  --tag-padding-y: 0.5em;
+  --tag-padding-x: 0.5;
+  --tag-padding-y: 0.5;
   --tag-size: inherit;
   --tag-color-hover: var(--text-accent-hover);
 }
