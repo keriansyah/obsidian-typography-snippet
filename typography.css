@@ -58,7 +58,7 @@ settings:
   -
 */
 
-/* Text */
+/* Text Variant*/
 .small-caps {
   font-variant-caps: small-caps;
   text-transform: lowercase;
@@ -76,13 +76,18 @@ settings:
   margin-right: .12em;
 }
 
-body {
-  --line-height-normal: 1.5;
-  --spacing-p: 1em;
+/* Text justify */
+.text-justify :is(.markdown-preview-view p,.markdown-source-view .cm-line) {
+  text-align: justify;
 }
 
-.text-justify :is(.markdown-preview-view p,.markdown-source-view .cm-line) {
-  text-align: left;
+/* Headings */
+h2, .markdown-rendered h2 {
+  margin-block-start: var(--h2-line-height);
+}
+
+h3, .markdown-rendered h3 {
+  margin-block-start: var(--h3-line-height);
 }
 
 /* Tags */
