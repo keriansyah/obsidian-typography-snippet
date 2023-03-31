@@ -3,16 +3,17 @@ name: Obsidian Typography
 id: obsidian-typography
 settings:
   - 
-    id: heading-line-height
-    title: Line height
+    id: heading-text
+    title: Text
     type: heading
     level: 1
     collapsed: true
   - 
     id: line-height
-    title: 'Line height'
+    title: Line height
     type: variable-text
     default: 1.5
+    
 */
 
 .small-caps {
