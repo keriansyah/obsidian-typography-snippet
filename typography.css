@@ -3,19 +3,16 @@ name: Obsidian Typography
 id: obsidian-typography
 settings:
   - 
-    id: heading-graph-node
-    title: Graph Node
+    id: heading-line-height
+    title: Line height
     type: heading
     level: 1
     collapsed: true
   - 
-    id: graph-node-tag
-    title: 'Graph: Tag'
-    type: variable-themed-color
-    opacity: false
-    format: hex
-    default-light: '#44cf6e'
-    default-dark: '#44cf6e'
+    id: line-height
+    title: 'Line height'
+    type: variable-text
+    default: 1.5
 */
 
 .small-caps {
@@ -34,4 +31,6 @@ settings:
     margin-top: .11em;
     margin-right: .12em;
 }
+
+--line-height: 1.5;
 

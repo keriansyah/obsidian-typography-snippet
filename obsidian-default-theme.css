@@ -255,83 +255,17 @@ settings:
     default-dark: '#dcddde'
   
   - 
-    id: heading-colors-interactive
-    title: Interactive Colors
+    id: heading-graph-node
+    title: Graph Node
     type: heading
     level: 1
     collapsed: true
-  -
-    id: interactive-normal
-    title: 'Interactive: Normal'
-    type: variable-themed-color
-    opacity: false
-    format: hex
-    default-light: '#f2f3f5'
-    default-dark: '#2a2a2a'
-  -
-    id: interactive-hover
-    title: 'Interactive: Hover'
-    type: variable-themed-color
-    opacity: false
-    format: hex
-    default-light: '#e9e9e9'
-    default-dark: '#303030'
-  -
-    id: interactive-accent
-    title: 'Interactive: Accent'
-    type: variable-themed-color
-    opacity: false
-    format: hex
-    alt-format:
-      -
-        id: interactive-accent-rgb
-        format: rgb-values
-    default-light: '#7b6cd9'
-    default-dark: '#483699'
-  -
-    id: interactive-accent-hover
-    title: 'Interactive: Accent (hover)'
-    type: variable-themed-color
-    opacity: false
-    format: hex
-    default-light: '#8273e6'
-    default-dark: '#4d3ca6'
-  -
-    id: interactive-success
-    title: 'Interactive: Success'
-    type: variable-themed-color
-    opacity: false
-    format: hex
-    default-light: '#197300'
-    default-dark: '#197300'
   - 
-    id: heading-colors-scrollbar
-    title: Scrollbar Colors
-    type: heading
-    level: 1
-    collapsed: true
-  -
-    id: scrollbar-bg
-    title: 'Scrollbar: Background'
+    id: graph-node-tag
+    title: 'Graph: Tag'
     type: variable-themed-color
-    opacity: true
-    format: rgb
-    default-light: '#0000000d'
-    default-dark: '#ffffff0d'
-  -
-    id: scrollbar-thumb-bg
-    title: 'Scrollbar: Thumb Background'
-    type: variable-themed-color
-    opacity: true
-    format: rgb
-    default-light: '#0000001a'
-    default-dark: '#ffffff1a'
-  -
-    id: scrollbar-active-thumb-bg
-    title: 'Scrollbar: Active Thumb Background'
-    type: variable-themed-color
-    opacity: true
-    format: rgb
-    default-light: '#00000033'
-    default-dark: '#ffffff33'
+    opacity: false
+    format: hex
+    default-light: '#44cf6e'
+    default-dark: '#44cf6e'
 */
