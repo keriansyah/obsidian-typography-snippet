@@ -9,7 +9,7 @@ settings:
     level: 1
     collapsed: true
   - 
-    id: line-height
+    id: line-height-tight
     title: Line height
     type: variable-text
     default: 1.5em
@@ -40,7 +40,7 @@ settings:
 }
 
 body {
-  --line-height: 1.5;
+  --line-height-tight: 1.5;
   --spacing-p: 1em;
 }
 
