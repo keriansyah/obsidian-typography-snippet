@@ -21,10 +21,10 @@ settings:
 		default: 1em
   -
     id: heading-tags
-		title: Tags
-		type: heading
-		level: 1
-		collapsed: true
+    title: Tags
+    type: heading
+    level: 1
+    collapsed: true
 	-
 		id: plain-tags
 		title: Plain tags
