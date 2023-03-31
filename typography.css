@@ -83,11 +83,11 @@ settings:
 
 /* Headings */
 h2, .markdown-rendered h2 {
-  margin-block-start: var(--h2-line-height);
+  margin-top: var(--h2-line-height);
 }
 
 h3, .markdown-rendered h3 {
-  margin-block-start: var(--h3-line-height);
+  margin-top: var(--h3-line-height);
 }
 
 /* Tags */
