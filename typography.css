@@ -64,6 +64,7 @@ settings:
   text-transform: lowercase;
   letter-spacing: 1px;
   font-size: calc(var(--font-text-size) + 0.16em);
+	font-family: serif;
   }
 
 .has-dropcap {
